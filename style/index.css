@@ -60,19 +60,22 @@ header {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
+    font-family: 'Pacifico', cursive;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
 }
 
 header p {
-    margin: 3% 5%;
+    margin: 3% 7%;
+    color: #AB0C5A;
 }
 
 .navbar {
-    margin: 2%;
+    margin: 2% 0 3% 0;
 }
 
 .navbar a {
@@ -82,7 +85,7 @@ header p {
     background-color: #470023;
     color: #fff;
     transition:1s;
-    
+    border-radius: 10px;
 }
 
 .navbar a:hover{
@@ -112,7 +115,7 @@ header p {
 
 .gallery, .textSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -142,11 +145,18 @@ header p {
 .textSection {
     width: 28vw;
     flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.bottom p {
+    margin: 0 17%;
+    font-size: 1.2rem;
 }
 
 /*Footer*/
 footer {
-    background-color: #F9B1D4;
+    background-color: #E179AC;
 }
 
 button{
@@ -157,9 +167,11 @@ button{
     border:2px solid #470023;
     font-size:1.6rem;
     transition:1s;
+    border-radius: 10px;
 }
 
 button:hover{
     color:#fff;
     background-color:#AB0C5A;
+    border:2px solid #AB0C5A;
 }
