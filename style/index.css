@@ -79,7 +79,7 @@ h1 {
     color: #fff;
     transition:1s;
     border-radius: 10px;
-    margin: .5%;
+    margin: .7%1%;
 }
 
 .navbar a:hover{
@@ -178,7 +178,7 @@ button:hover{
 }
 
 /*Media Queries*/
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     h1, h2 {
         margin: 0 3%;
     }
@@ -232,6 +232,6 @@ button:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     /*No changes needed!*/
 }
